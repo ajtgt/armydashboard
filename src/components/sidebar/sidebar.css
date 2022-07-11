@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+
+.mainarea {
+  display: flex;
+}
+
+.sidenav {
+  position: fixed;
+  top: 66px;
+  left: 0;
+  width: 260px;
+  height: 100%;
+  background-color: #ffffff;
+  border-width: 1px;
+  animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.sidebar_inner {
+  margin-top: 50px;
+}
+
+.list {
+  text-decoration: none;
+}
+
+.text {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+.sidenav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidenav li {
+  display: block;
+  color: #e9eeff;
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+img {
+  height: 25px;
+  width: 25px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.text {
+  margin-left: 10px;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.sidenav ul :hover {
+  background: #e9eeff;
+  color: black;
+}
+
+.hover_collapse .text {
+  display: none;
+}
+
+.hover_collapse {
+  width: 70px;
+}
+
+.main {
+  top: 66px;
+  width: 100%;
+  background-color: #e9eeff;
+  margin-left: 260px;
+  height: 100vh;
+  animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.hover_collapse_main {
+  top: 66px;
+  background-color: #e9eeff;
+  margin-left: 70px;
+  height: 100vh;
+  width: 100%;
+  animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
